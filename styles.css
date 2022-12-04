@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: rgb(61, 58, 58);
+  color: rgb(214, 205, 205);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*CARRUSEL*/ 
+
+.container-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel,
+.carousel-inner > .item > img {
+  width: 28em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+
+/*CARDS*/
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60em;
+    
+    
+}
+
+.card {
+    margin: 2em;
+    width: 10em;
+    height: 15em;
+}
+
+/*FORMULARIO*/
+.contactanos {
+  color: rgb(182, 66, 66);
+}
+
+.container-form {
+  max-width: 60em;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+}
+
+.container-form .contactanos {
+  margin-top: 15px;
+  font-size: 2em;
+}
+
+.container-form p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 2em;
+  font-size: 1.5em;
+}
+
+.container-form a {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1em;
+  color: rgb(214, 205, 205);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.container-form a i {
+  color: rgb(182, 66, 66);
+  margin-right: 0.5em;
+}
+
+.container-form form .campo,
+textarea {
+  width: 100%;
+  padding: 1em 0.5em;
+  font-size: 1em;
+  border: 0.01em solid rgb(182, 66, 66);
+  margin-bottom: 2em;
+  border-radius: 0.5em;
+  outline: 0em;
+}
+
+.container-form .btn-enviar {
+  padding: 0.3em;
+  font-size: 1.5em;
+  border: none;
+  outline: 0em;
+  background-color: rgb(182, 66, 66);
+  color: white;
+  border-radius: 0.2em;
+}
+
+/*FOOTER*/
+.container-footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  background-color: #292d30;
+}
